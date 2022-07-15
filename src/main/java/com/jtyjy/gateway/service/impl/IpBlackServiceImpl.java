@@ -1,7 +1,7 @@
 package com.jtyjy.gateway.service.impl;
 
-import com.jtyjy.basic.common.web.Result;
 import com.jtyjy.gateway.cache.IpListCache;
+import com.jtyjy.gateway.common.web.Result;
 import com.jtyjy.gateway.config.RedisListenerConfig;
 import com.jtyjy.gateway.constants.RedisTypeConstants;
 import com.jtyjy.gateway.constants.StringConstants;
@@ -13,7 +13,6 @@ import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.time.FastDateFormat;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.gateway.event.RefreshRoutesEvent;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.context.ApplicationEventPublisherAware;
 import org.springframework.data.redis.core.StringRedisTemplate;

@@ -2,7 +2,7 @@ package com.jtyjy.gateway.controller;
 
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.jtyjy.basic.common.web.Result;
+import com.jtyjy.gateway.common.web.Result;
 import com.jtyjy.gateway.dto.InterfaceDTO;
 import com.jtyjy.gateway.dto.PageBody;
 import com.jtyjy.gateway.dto.RouteDTO;

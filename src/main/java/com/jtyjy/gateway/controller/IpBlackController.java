@@ -1,9 +1,8 @@
 package com.jtyjy.gateway.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.jtyjy.basic.common.web.Result;
+import com.jtyjy.gateway.common.web.Result;
 import com.jtyjy.gateway.service.IpBlackService;
-
 import com.jtyjy.gateway.vo.IpBlackVO;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

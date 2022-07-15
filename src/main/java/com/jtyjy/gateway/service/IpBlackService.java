@@ -1,12 +1,7 @@
 package com.jtyjy.gateway.service;
 
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.baomidou.mybatisplus.extension.service.IService;
-import com.jtyjy.basic.common.web.Result;
-import com.jtyjy.gateway.query.WhiteListQuery;
-import com.jtyjy.gateway.repository.model.WhiteList;
+import com.jtyjy.gateway.common.web.Result;
 import com.jtyjy.gateway.vo.IpBlackVO;
-import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;
 
 import java.util.List;
